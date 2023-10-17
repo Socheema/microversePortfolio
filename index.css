@@ -76,7 +76,6 @@ nav ul li a {
   flex-direction: column;
   gap: 25px;
   position: relative;
-  border-bottom-left-radius: 100px;
   background-color: #fff;
 }
 
@@ -161,11 +160,18 @@ nav ul li a {
 .portfolioSection {
   position: relative;
   background-color: #f4f5f7;
-  padding: 142px 142px;
+  padding: 0 142px;
   display: flex;
   flex-direction: column;
   gap: 100px;
   color: #000000;
+  margin: 0 !important;
+}
+
+.svg_1{
+  display: block;
+  width: 100%;
+  padding: 0 !important;
 }
 
 .Project {
@@ -282,7 +288,7 @@ nav ul li a {
 
 .aboutSection {
   background-color: #fff;
-  padding: 122px 150px;
+  padding: 0 150px 122px;
   border-top-right-radius: 100px;
 }
 
@@ -290,7 +296,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 35px;
+  gap: 40px;
 }
 
 .about_left {
